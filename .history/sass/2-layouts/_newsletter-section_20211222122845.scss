@@ -1,0 +1,9 @@
+@use '../1-base/variables';
+@use '../2-layouts/layouts_mixins';
+@use '../1-base/base-mixins';
+
+.container-newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+}

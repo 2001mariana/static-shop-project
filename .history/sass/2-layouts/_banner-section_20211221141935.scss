@@ -1,0 +1,6 @@
+@use '../1-base/base-mixins';
+@use 'layouts_mixins';
+
+.banners {
+    @include layouts_mixins.center-content
+}

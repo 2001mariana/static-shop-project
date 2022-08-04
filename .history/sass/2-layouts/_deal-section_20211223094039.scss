@@ -1,0 +1,71 @@
+@use '../1-base/base-mixins';
+@use '../1-base/variables';
+@use '../2-layouts/layouts_mixins';
+
+.deal-container {
+    background-image: url('../img/deal_headset.png');
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 2rem;
+    background-size: 24%;
+    background-color: variables.$section-bg-color;
+    height: 400px;
+    padding: 2rem;
+    border: 1px solid pink;
+    display: flex;
+
+    iframe {
+        border: none;
+        size: 60%;
+        align-self: flex-start;
+        margin-right: 50px;
+    }
+}
+
+.deal-container-content {
+    height: 100%;
+    align-items: center;
+    @include layouts_mixins.center-content;
+    justify-content: center;
+    border: 1px solid green;
+    display: flex;
+
+    &-timer {
+        display: flex;
+        margin-bottom: 2rem;
+    }
+
+    &-title, &-subtitle {
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+
+    &-subtitle {
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+}
+
+.teste {
+    border: 1px solid yellow;
+}
+
+.deal-container-timer {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: variables.$primary-color;
+    color: variables.$light-color;
+    margin: 0 1rem;
+
+    &-time {
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+}
+

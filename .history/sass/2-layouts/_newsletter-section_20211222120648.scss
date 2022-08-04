@@ -1,0 +1,12 @@
+@use '../1-base/variables';
+@use '../2-layouts/layouts_mixins';
+
+.content-newsletter {
+    border: 1px solid blue;
+}
+.content-align-center-newsletter {
+    border: 1px solid red;
+    @include layouts_mixins.center-content;
+
+    
+}

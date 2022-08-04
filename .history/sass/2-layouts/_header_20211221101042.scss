@@ -1,0 +1,16 @@
+@use '../1-base/variables';
+@use '../1-base/base-mixins';
+@use 'layouts-mixins';
+
+.header {
+    background-color: variables.$bg-color;
+}
+
+.header-top {
+    background-color: variables.$secondary-bg-color;
+    color: variables.$light-color;
+
+    &-container {
+        @include layouts-mixins.center-content;
+    }
+}

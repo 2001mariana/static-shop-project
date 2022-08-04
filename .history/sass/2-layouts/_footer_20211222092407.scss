@@ -1,0 +1,17 @@
+@use '../1-base/variables';
+@use '';
+
+.footer {
+    background-color: variables.$bg-color;
+    color: variables.$light-color;
+
+    @include base-mixins.
+}
+
+.footer-top {
+    border: 1px solid greenyellow;
+
+    &-categories {
+        border: 1px solid blue;
+    }
+}

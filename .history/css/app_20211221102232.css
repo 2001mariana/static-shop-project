@@ -1,0 +1,49 @@
+html {
+  font-size: 14px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  font-size: 1rem;
+}
+
+i {
+  color: #D10024;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s;
+}
+a:hover {
+  color: #D10024;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  background-color: #15161D;
+}
+
+.header-top {
+  background-color: #1E1F29;
+  color: #FFF;
+}
+.header-top-container {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=app.css.map */

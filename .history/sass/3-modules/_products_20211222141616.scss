@@ -1,0 +1,18 @@
+@use '../1-base/variables';
+@use '../1-base/base-mixins';
+
+.products-grid-card {
+    border: 1px solid variables.$gray-text-color;
+    position: absolute;
+    width: 20%;
+    padding: 1rem;
+    transition: .4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        
+    }
+}

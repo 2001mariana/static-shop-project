@@ -1,0 +1,18 @@
+@use '../1-base/variables';
+@use '../2-layouts/layouts_mixins';
+@use '../1-base/base-mixins';
+
+.container-newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border-top: 2px solid red;
+}
+
+h2 {
+    font-size: 2rem;
+    color: variables.$dark-color
+    marg
+}

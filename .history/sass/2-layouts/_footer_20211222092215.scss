@@ -1,0 +1,15 @@
+@use '../1-base/variables';
+
+
+.footer {
+    background-color: variables.$bg-color;
+    color: variables.$light-color;
+}
+
+.footer-top {
+    border: 1px solid greenyellow;
+
+    &-categories {
+        border: 1px solid blue;
+    }
+}
